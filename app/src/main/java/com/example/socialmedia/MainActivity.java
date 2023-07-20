@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         binding.buttonSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
