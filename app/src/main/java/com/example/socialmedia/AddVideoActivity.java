@@ -80,6 +80,7 @@ public class AddVideoActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(DocumentReference documentReference) {
                             Toast.makeText(AddVideoActivity.this, "Video link added!", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(AddVideoActivity.this,LoginDashboard.class));
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
